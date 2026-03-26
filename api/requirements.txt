@@ -3,3 +3,4 @@ uvicorn
 anthropic
 pydantic
 transformers
+torch==2.2.2
