@@ -1,0 +1,78 @@
+.ma-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.ma-scene {
+  position: relative;
+  width: 200px;
+  height: 260px;
+}
+
+.ma-svg {
+  width: 200px;
+  height: 260px;
+  overflow: visible;
+  transition: transform 0.4s ease;
+}
+
+.ma-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 260px;
+  pointer-events: none;
+}
+
+.ma-particle {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  opacity: 0;
+}
+
+.ma-label {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(90deg, #F7C948, #E8834A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.4s ease;
+}
+
+.ma-label.sad {
+  background: linear-gradient(90deg, #A8C8E8, #7B9BB8);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.ma-label.angry {
+  background: linear-gradient(90deg, #E85050, #C03030);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.ma-label.excited {
+  background: linear-gradient(90deg, #FF9F40, #E84A7B);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.ma-label.neutral {
+  background: linear-gradient(90deg, #B0A8C8, #8B7FAA);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.ma-label.happy {
+  background: linear-gradient(90deg, #F7C948, #E8834A);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
